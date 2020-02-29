@@ -29,7 +29,6 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
               Padding(
                 padding: EdgeInsets.only(right: 5, bottom: 15, top: 0),
                 child: Container(
-                  color: Colors.pink[100],
                   width: MediaQuery.of(context).size.width/3,
                   height: 10,
                   child: Material(
@@ -191,7 +190,6 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
               Padding(
                 padding: EdgeInsets.only(right: 5, bottom: 15, top: 0),
                 child: Container(
-                  color: Colors.pink[100],
                   width: MediaQuery.of(context).size.width/3,
                   height: MediaQuery.of(context).size.height/4 + 10,
                   child: Material(
@@ -356,7 +354,6 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
               Padding(
                 padding: EdgeInsets.only(right: 5, bottom: 15, top: 0),
                 child: Container(
-                  color: Colors.pink[100],
                   width: MediaQuery.of(context).size.width/3,
                   height: MediaQuery.of(context).size.height/4 + 10,
                   child: Material(
@@ -521,7 +518,6 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
               Padding(
                 padding: EdgeInsets.only(right: 5, bottom: 15, top: 0),
                 child: Container(
-                  color: Colors.pink[100],
                   width: MediaQuery.of(context).size.width/3,
                   height: MediaQuery.of(context).size.height/4 + 10,
                   child: Material(
@@ -686,7 +682,6 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
               Padding(
                 padding: EdgeInsets.only(right: 5, bottom: 15, top: 0),
                 child: Container(
-                  color: Colors.pink[100],
                   width: MediaQuery.of(context).size.width/3,
                   height: MediaQuery.of(context).size.height/4 + 10,
                   child: Material(
