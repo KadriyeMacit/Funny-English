@@ -213,13 +213,133 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
                                   height: 60,
                                   child: Image.asset("assets/meals/lunch.png")
                               ),
-                              Expanded(
-                                child: Text("Lunch",
+
+                               Text("Lunch",
                                   style: TextStyle(
                                       fontWeight: FontWeight.bold
                                   ),
                                 ),
+
+                              Padding(
+                                padding: const EdgeInsets.only(top: 8.0),
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  children: <Widget>[
+
+                                    Padding(
+                                      padding: const EdgeInsets.only(right: 5.0),
+                                      child: Text("pasta",
+                                        style: TextStyle(
+                                            fontSize: 14
+                                        ),
+                                      ),
+                                    ),
+
+                                    Container(
+                                      height: 20,
+                                      width: 20,
+                                      child: Image.asset("assets/foods/pasta.png"),
+                                    )
+
+                                  ],
+                                ),
                               ),
+
+
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                children: <Widget>[
+
+                                  Padding(
+                                    padding: const EdgeInsets.only(right: 5.0),
+                                    child: Text("salat",
+                                      style: TextStyle(
+                                          fontSize: 14
+                                      ),
+                                    ),
+                                  ),
+
+                                  Container(
+                                    height: 20,
+                                    width: 20,
+                                    child: Image.asset("assets/foods/salat.png"),
+                                  )
+
+                                ],
+                              ),
+
+
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                children: <Widget>[
+
+                                  Padding(
+                                    padding: const EdgeInsets.only(right: 5.0),
+                                    child: Text("soup",
+                                      style: TextStyle(
+                                          fontSize: 14
+                                      ),
+                                    ),
+                                  ),
+
+                                  Container(
+                                    height: 20,
+                                    width: 20,
+                                    child: Image.asset("assets/foods/soup.png"),
+                                  )
+
+                                ],
+                              ),
+
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                children: <Widget>[
+
+                                  Padding(
+                                    padding: const EdgeInsets.only(right: 5.0),
+                                    child: Text("chicken",
+                                      style: TextStyle(
+                                          fontSize: 14
+                                      ),
+                                    ),
+                                  ),
+
+                                  Container(
+                                    height: 20,
+                                    width: 20,
+                                    child: Image.asset("assets/foods/chicken.png"),
+                                  )
+
+                                ],
+                              ),
+
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                children: <Widget>[
+
+                                  Padding(
+                                    padding: const EdgeInsets.only(right: 5.0),
+                                    child: Text("beans",
+                                      style: TextStyle(
+                                          fontSize: 14
+                                      ),
+                                    ),
+                                  ),
+
+                                  Container(
+                                    height: 20,
+                                    width: 20,
+                                    child: Image.asset("assets/foods/beans.png"),
+                                  )
+
+                                ],
+                              ),
+
 
                             ],
                           ),
