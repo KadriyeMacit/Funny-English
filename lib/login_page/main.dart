@@ -4,6 +4,7 @@ import 'file:///C:/Users/Kadriye/Desktop/funny_english/lib/login_page/signin_but
 import 'file:///C:/Users/Kadriye/Desktop/funny_english/lib/login_page/teddy_controller.dart';
 import 'file:///C:/Users/Kadriye/Desktop/funny_english/lib/login_page/tracking_text_input.dart';
 import 'package:flare_flutter/flare_actor.dart';
+import 'package:funny_english/another_pages/home_page.dart';
 
 
 void main() => runApp(MyApp());
@@ -121,6 +122,11 @@ class _MyHomePageState extends State<MyHomePage> {
                                                     color: Colors.white)),
                                             onPressed: () {
                                               _teddyController.submitPassword();
+
+                                              Navigator.push(context, MaterialPageRoute(
+                                                  builder: (context) => HomePage()
+                                              ));
+
                                             })
                                       ],
                                     )),
