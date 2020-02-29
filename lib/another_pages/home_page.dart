@@ -560,7 +560,7 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
 
                                     Padding(
                                       padding: const EdgeInsets.only(right: 5.0),
-                                      child: Text("avocado",
+                                      child: Text("apple",
                                         style: TextStyle(
                                             fontSize: 14
                                         ),
@@ -570,7 +570,7 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
                                     Container(
                                       height: 20,
                                       width: 20,
-                                      child: Image.asset("assets/foods/avakado.png"),
+                                      child: Image.asset("assets/foods/apple.png"),
                                     )
 
                                   ],
@@ -584,7 +584,7 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
 
                                   Padding(
                                     padding: const EdgeInsets.only(right: 5.0),
-                                    child: Text("banana",
+                                    child: Text("chocolate",
                                       style: TextStyle(
                                           fontSize: 14
                                       ),
@@ -594,7 +594,7 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
                                   Container(
                                     height: 20,
                                     width: 20,
-                                    child: Image.asset("assets/foods/banana.png"),
+                                    child: Image.asset("assets/foods/chocolate.png"),
                                   )
 
                                 ],
@@ -608,7 +608,7 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
 
                                   Padding(
                                     padding: const EdgeInsets.only(right: 5.0),
-                                    child: Text("oat",
+                                    child: Text("almond",
                                       style: TextStyle(
                                           fontSize: 14
                                       ),
@@ -618,7 +618,7 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
                                   Container(
                                     height: 20,
                                     width: 20,
-                                    child: Image.asset("assets/foods/oat.png"),
+                                    child: Image.asset("assets/foods/almond.png"),
                                   )
 
                                 ],
@@ -632,7 +632,7 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
 
                                   Padding(
                                     padding: const EdgeInsets.only(right: 5.0),
-                                    child: Text("milk",
+                                    child: Text("carrot",
                                       style: TextStyle(
                                           fontSize: 14
                                       ),
@@ -642,7 +642,7 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
                                   Container(
                                     height: 20,
                                     width: 20,
-                                    child: Image.asset("assets/foods/milk.png"),
+                                    child: Image.asset("assets/foods/carrot.png"),
                                   )
 
                                 ],
@@ -656,7 +656,7 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
 
                                   Padding(
                                     padding: const EdgeInsets.only(right: 5.0),
-                                    child: Text("walnut",
+                                    child: Text("fish",
                                       style: TextStyle(
                                           fontSize: 14
                                       ),
@@ -666,7 +666,7 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
                                   Container(
                                     height: 20,
                                     width: 20,
-                                    child: Image.asset("assets/foods/walnut.png"),
+                                    child: Image.asset("assets/foods/fish.png"),
                                   )
 
                                 ],

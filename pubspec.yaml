@@ -73,6 +73,11 @@ flutter:
     - assets/foods/rice.png
     - assets/foods/meatball.png
     - assets/foods/yogurt.png
+    - assets/foods/almond.png
+    - assets/foods/apple.png
+    - assets/foods/fish.png
+    - assets/foods/chocolate.png
+    - assets/foods/carrot.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
