@@ -63,6 +63,11 @@ flutter:
     - assets/foods/chicken.png
     - assets/foods/pasta.png
     - assets/foods/beans.png
+    - assets/foods/avakado.png
+    - assets/foods/banana.png
+    - assets/foods/oat.png
+    - assets/foods/milk.png
+    - assets/foods/walnut.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
