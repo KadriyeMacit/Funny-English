@@ -20,7 +20,7 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
 
         child: Container(
 
-          height: MediaQuery.of(context).size.height/4 + 20,
+          height: MediaQuery.of(context).size.height/3 ,
 
           child: ListView(
             scrollDirection: Axis.horizontal,
@@ -50,16 +50,132 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
                             children: <Widget>[
                               Container(
                                 height: 60,
-                                  child: Image.asset("assets/breakfast.png")
+                                  child: Image.asset("assets/meals/breakfast.png")
                               ),
-                              Expanded(
-                                child: Text("Breakfast",
+
+                               Text("Breakfast",
                                 style: TextStyle(
                                   fontWeight: FontWeight.bold
                                 ),
                                 ),
+
+
+                              Padding(
+                                padding: const EdgeInsets.only(top: 8.0),
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  children: <Widget>[
+
+                                    Padding(
+                                      padding: const EdgeInsets.only(right: 5.0),
+                                      child: Text("bread",
+                                        style: TextStyle(
+                                            fontSize: 14
+                                        ),
+                                      ),
+                                    ),
+
+                                    Container(
+                                      height: 20,
+                                      width: 20,
+                                      child: Image.asset("assets/foods/bread.png"),
+                                    )
+
+                                  ],
+                                ),
                               ),
 
+
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                children: <Widget>[
+
+                                  Padding(
+                                    padding: const EdgeInsets.only(right: 5.0),
+                                    child: Text("cheese",
+                                      style: TextStyle(
+                                          fontSize: 14
+                                      ),
+                                    ),
+                                  ),
+
+                                  Container(
+                                    height: 20,
+                                    width: 20,
+                                    child: Image.asset("assets/foods/cheese.png"),
+                                  )
+
+                                ],
+                              ),
+
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                children: <Widget>[
+
+                                  Padding(
+                                    padding: const EdgeInsets.only(right: 5.0),
+                                    child: Text("ham",
+                                      style: TextStyle(
+                                          fontSize: 14
+                                      ),
+                                    ),
+                                  ),
+
+                                  Container(
+                                    height: 20,
+                                    width: 20,
+                                    child: Image.asset("assets/foods/ham.png"),
+                                  )
+
+                                ],
+                              ),
+
+
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                children: <Widget>[
+
+                                  Padding(
+                                    padding: const EdgeInsets.only(right: 3.0),
+                                    child: Text("olive",
+                                      style: TextStyle(
+                                          fontSize: 14
+                                      ),
+                                    ),
+                                  ),
+
+                                  Container(
+                                    height: 20,
+                                    width: 20,
+                                    child: Image.asset("assets/foods/olive.png"),
+                                  )
+
+                                ],
+                              ),
+
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                children: <Widget>[
+                                  
+                                  Text("egg",
+                                    style: TextStyle(
+                                       fontSize: 14
+                                    ),
+                                  ),
+                                  
+                                  Container(
+                                    height: 20,
+                                    width: 30,
+                                    child: Image.asset("assets/foods/egg.png"),
+                                  )
+                                  
+                                ],
+                              ),
 
                             ],
                           ),
@@ -95,7 +211,7 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
 
                               Container(
                                   height: 60,
-                                  child: Image.asset("assets/lunch.png")
+                                  child: Image.asset("assets/meals/lunch.png")
                               ),
                               Expanded(
                                 child: Text("Lunch",
@@ -140,7 +256,7 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
 
                               Container(
                                   height: 60,
-                                  child: Image.asset("assets/snack.png")
+                                  child: Image.asset("assets/meals/snack.png")
                               ),
                               Expanded(
                                 child: Text("Snack",
@@ -184,7 +300,7 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
 
                               Container(
                                   height: 60,
-                                  child: Image.asset("assets/dinner.png")
+                                  child: Image.asset("assets/meals/dinner.png")
                               ),
                               Expanded(
                                 child: Text("Dinner",

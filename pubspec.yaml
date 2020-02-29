@@ -49,10 +49,15 @@ flutter:
         - asset: assets/fonts/Roboto-Medium.ttf
   assets:
     - assets/
-    - assets/breakfast.png
-    - assets/dinner.png
-    - assets/lunch.png
-    - assets/snack.png
+    - assets/meals/breakfast.png
+    - assets/meals/dinner.png
+    - assets/meals/lunch.png
+    - assets/meals/snack.png
+    - assets/foods/egg.png
+    - assets/foods/cheese.png
+    - assets/foods/olive.png
+    - assets/foods/bread.png
+    - assets/foods/ham.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
