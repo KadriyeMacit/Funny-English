@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:funny_english/another_pages/foods.dart';
 import 'package:funny_english/models/circular_clipper.dart';
+import 'package:funny_english/models/circular_slider_paint.dart';
 import 'package:funny_english/theme_page.dart';
 
 class HomePage extends StatefulWidget {
@@ -113,7 +115,12 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
                               Container(
                                   width: 50,
                                   height: 50,
-                                  child: Image.asset("assets/menu/notes.png")
+                                  child: InkWell(
+                                      onTap: (){
+
+                                  },
+                                      child: Image.asset("assets/menu/notes.png")
+                                  )
                               ),
                               Text("take a not!")
                             ],
@@ -137,7 +144,13 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
                               Container(
                                   width: 50,
                                   height: 50,
-                                  child: Image.asset("assets/menu/food.png")
+                                  child: InkWell(
+                                    onTap: (){
+                                      Navigator.push(context, MaterialPageRoute(
+                                          builder: (context) => FoodPage()));
+                                    },
+                                      child: Image.asset("assets/menu/food.png")
+                                  )
                               ),
                               Text("healthy")
                             ],
@@ -161,7 +174,13 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
                               Container(
                                   width: 50,
                                   height: 50,
-                                  child: Image.asset("assets/menu/game.png")
+                                  child: InkWell(
+                                      onTap: (){
+                                      //  Navigator.push(context, MaterialPageRoute(
+                                        //    builder: (context) => CircularSliderPaint()));
+                                      },
+                                      child: Image.asset("assets/menu/game.png")
+                                  )
                               ),
                               Text("gaming")
                             ],
@@ -194,7 +213,12 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
                             Container(
                                 width: 50,
                                 height: 50,
-                                child: Image.asset("assets/menu/travel.png")
+                                child: InkWell(
+                                  onTap: (){
+
+                                  },
+                                    child: Image.asset("assets/menu/travel.png")
+                                )
                             ),
                             Text("travel")
                           ],
@@ -218,7 +242,12 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
                             Container(
                                 width: 50,
                                 height: 50,
-                                child: Image.asset("assets/menu/translate.png")
+                                child: InkWell(
+                                  onTap: (){
+
+                                  },
+                                    child: Image.asset("assets/menu/translate.png")
+                                )
                             ),
                             Text("work hard!")
                           ],
@@ -243,7 +272,12 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
                               Container(
                                   width: 50,
                                   height: 50,
-                                  child: Image.asset("assets/menu/life.png")
+                                  child: InkWell(
+                                    onTap: (){
+
+                                    },
+                                      child: Image.asset("assets/menu/life.png")
+                                  )
                               ),
                               Text("happy life")
                             ],

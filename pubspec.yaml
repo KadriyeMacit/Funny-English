@@ -31,6 +31,8 @@ dev_dependencies:
 
   flare_dart: ^2.3.3
   flare_flutter: ^2.0.1
+  flutter_circular_slider: ^2.5.0
+  flutter_circular_chart: ^0.1.0
 
 
 # For information on the generic Dart part of this file, see the
@@ -87,6 +89,7 @@ flutter:
     - assets/menu/notes.png
     - assets/menu/translate.png
     - assets/menu/travel.png
+    - assets/w.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
