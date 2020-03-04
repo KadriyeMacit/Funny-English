@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:funny_english/another_pages/foods.dart';
+import 'package:funny_english/another_pages/game.dart';
 import 'package:funny_english/another_pages/life.dart';
 import 'package:funny_english/models/circular_clipper.dart';
 import 'package:funny_english/theme_page.dart';
@@ -176,8 +177,8 @@ class HomeLayout extends State<HomePage> with TickerProviderStateMixin {
                                   height: 50,
                                   child: InkWell(
                                       onTap: (){
-                                      //  Navigator.push(context, MaterialPageRoute(
-                                        //    builder: (context) => CircularSliderPaint()));
+                                        Navigator.push(context, MaterialPageRoute(
+                                            builder: (context) => Oyun()));
                                       },
                                       child: Image.asset("assets/menu/game.png")
                                   )

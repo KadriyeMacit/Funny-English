@@ -34,6 +34,12 @@ dev_dependencies:
   flutter_circular_slider: ^2.5.0
   flutter_circular_chart: ^0.1.0
   flutter_launcher_icons: ^0.7.4
+  percent_indicator: ^2.1.1+1
+  rxdart: ^0.22.0
+  get_it: ^1.0.3+2
+  rflutter_alert: ^1.0.3
+  audioplayers: ^0.13.0
+  sliding_up_panel: ^0.3.4
 
 
 # For information on the generic Dart part of this file, see the
@@ -50,6 +56,19 @@ flutter:
     - family: RobotoMedium
       fonts:
         - asset: assets/fonts/Roboto-Medium.ttf
+
+    - family: DancingScript
+      fonts:
+         - asset: fonts/DancingScript-Regular.ttf
+         - asset: fonts/DancingScript-Bold.ttf
+           weight: 700
+
+    - family: Poppins
+      fonts:
+          - asset: fonts/Poppins-Regular.ttf
+          - asset: fonts/Poppins-Bold.ttf
+            weight: 700
+
   assets:
     - assets/
     - assets/meals/breakfast.png
